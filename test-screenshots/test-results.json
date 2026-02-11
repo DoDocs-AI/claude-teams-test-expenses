@@ -1,0 +1,57 @@
+[
+  {
+    "flow": "1. Registration",
+    "status": "PASS",
+    "message": "Successfully registered with tester_1770824178754@example.com. Redirected to login page."
+  },
+  {
+    "flow": "2. Login",
+    "status": "PASS",
+    "message": "Successfully logged in and redirected to dashboard."
+  },
+  {
+    "flow": "3. Dashboard View",
+    "status": "FAIL",
+    "message": "Dashboard loaded. Summary cards: 0, Charts: 108, Nav links: 4. No summary cards visible.",
+    "bug": "No summary cards found on dashboard"
+  },
+  {
+    "flow": "4. Add Expense",
+    "status": "PASS",
+    "message": "Expense added successfully. Redirected to expenses list. Toast: \"Expense added.x\""
+  },
+  {
+    "flow": "5. View/Filter Expenses",
+    "status": "PASS",
+    "message": "Expenses list loaded with 2 items. Filters tested. (Test expense text not exactly matched but items present)"
+  },
+  {
+    "flow": "6. Edit Expense",
+    "status": "PASS",
+    "message": "Expense edited and saved successfully. Redirected to list."
+  },
+  {
+    "flow": "7. Delete Expense",
+    "status": "FAIL",
+    "message": "No confirmation dialog appeared after clicking delete.",
+    "bug": "Missing confirmation dialog"
+  },
+  {
+    "flow": "8. Categories Management",
+    "status": "FAIL",
+    "message": "No \"Add Category\" button found.",
+    "bug": "Missing Add Category button"
+  },
+  {
+    "flow": "9. Budget Settings",
+    "status": "FAIL",
+    "message": "No budget input field found.",
+    "bug": "Missing budget input"
+  },
+  {
+    "flow": "10. Logout",
+    "status": "FAIL",
+    "message": "No logout button found.",
+    "bug": "Logout button not found"
+  }
+]

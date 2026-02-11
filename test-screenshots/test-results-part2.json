@@ -1,0 +1,34 @@
+[
+  {
+    "flow": "3. Dashboard View",
+    "status": "FAIL",
+    "message": "Dashboard has all 4 summary cards, 2 chart sections, Recent Expenses, month selector, full sidebar nav, logout button, user email. BUGS: Budget Remaining displays \"$NaN\" when no budget is set",
+    "bug": "Budget Remaining displays \"$NaN\" when no budget is set"
+  },
+  {
+    "flow": "5. View/Filter Expenses",
+    "status": "FAIL",
+    "message": "Error: today is not defined",
+    "bug": "today is not defined"
+  },
+  {
+    "flow": "7. Delete Expense",
+    "status": "PASS",
+    "message": "Expense deleted. Before: 2, After: 1. Confirmation dialog appeared."
+  },
+  {
+    "flow": "8. Categories Management",
+    "status": "PASS",
+    "message": "Default categories present (Food, Transportation, Housing). Custom category \"Test Custom Category\" added successfully."
+  },
+  {
+    "flow": "9. Budget Settings",
+    "status": "PASS",
+    "message": "Monthly budget set to $1500 and saved. Progress bar present: false."
+  },
+  {
+    "flow": "10. Logout",
+    "status": "PASS",
+    "message": "Logged out and redirected to login page. Toast: \"\"."
+  }
+]

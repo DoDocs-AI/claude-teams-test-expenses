@@ -1,0 +1,42 @@
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.claude.com)",
+      "mcp__voicemode__converse",
+      "Bash(npm create vite@latest frontend -- --template react-ts)",
+      "Bash(java -version:*)",
+      "Bash(mvn --version)",
+      "Bash(npm install)",
+      "Bash(npm install react-router-dom recharts)",
+      "Bash(mvn io.quarkus.platform:quarkus-maven-plugin:3.17.5:create:*)",
+      "Bash(./mvnw quarkus:add-extension:*)",
+      "Bash(openssl genrsa:*)",
+      "Bash(openssl rsa:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(docker compose up:*)",
+      "Bash(lsof:*)",
+      "Bash(docker compose:*)",
+      "Bash(./mvnw compile:*)",
+      "Bash(timeout 60 ./mvnw quarkus:dev:*)",
+      "Bash(kill:*)",
+      "Bash(curl:*)",
+      "Bash(TOKEN=:*)",
+      "Bash(python3 -m json.tool echo \"\" echo \"=== 4. CREATE EXPENSE ===\" curl -s -w \"\\\\nHTTP_CODE: %{http_code}\\\\n\" -X POST http://localhost:5173/api/expenses -H \"Authorization: Bearer $TOKEN\" -H \"Content-Type: application/json\" -d '{\"\"amount\"\":45.99,\"\"categoryId\"\":1,\"\"date\"\":\"\"2026-02-10\"\",\"\"description\"\":\"\"Grocery shopping\"\"}' echo \"\" echo \"=== 5. GET EXPENSES ===\" curl -s -H \"Authorization: Bearer $TOKEN\" http://localhost:5173/api/expenses)",
+      "Bash(python3 -m json.tool echo \"\" echo \"=== 6. SET BUDGET ===\" curl -s -w \"\\\\nHTTP_CODE: %{http_code}\\\\n\" -X PUT http://localhost:5173/api/budgets/monthly -H \"Authorization: Bearer $TOKEN\" -H \"Content-Type: application/json\" -d '{\"\"month\"\":2,\"\"year\"\":2026,\"\"amount\"\":2000.00}' echo \"\" echo \"=== 7. GET MONTHLY SUMMARY ===\" curl -s -H \"Authorization: Bearer $TOKEN\" http://localhost:5173/api/reports/summary)",
+      "Bash(python3 -m json.tool echo \"\" echo \"=== 8. GET BY-CATEGORY REPORT ===\" curl -s -H \"Authorization: Bearer $TOKEN\" http://localhost:5173/api/reports/by-category)",
+      "Bash(python3:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(npx playwright --version)",
+      "Bash(node test-manual.mjs:*)",
+      "Bash(node test-manual-part2.mjs:*)",
+      "Bash(git init:*)",
+      "Bash(git -C /Users/antonignasev/java/opencode-tests/test-expenses status -s)",
+      "Bash(git -C /Users/antonignasev/java/opencode-tests/test-expenses add -A)",
+      "Bash(git -C /Users/antonignasev/java/opencode-tests/test-expenses commit -m \"$\\(cat <<''EOF''\nInitial commit\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
