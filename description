@@ -1,0 +1,48 @@
+Claude Code Teams of Agents: Building a Full-Stack App with AI Agent Coordination
+
+Watch how I built a complete Expense Tracker application from scratch using Claude Code's Teams of Agents feature — where multiple AI agents collaborate as a real development team.
+
+In this video, you'll see how specialized AI agents work together in defined roles — Product Manager, UX Expert, Architect, Scrum Master, Frontend Developer, Backend Developer, Tech Lead, Manual Tester, and QA Engineer — each handling their part of the software development lifecycle autonomously.
+
+The result: a full-stack expense tracking app with a Quarkus/Java backend, React/TypeScript frontend, PostgreSQL database, JWT authentication, budget management, category filtering, and reporting dashboards — all coordinated by AI agents.
+
+What you'll learn:
+- How to set up Claude Code Teams of Agents for a real project
+- Defining agent roles and responsibilities with CLAUDE.md
+- Multi-agent coordination: from requirements gathering to testing
+- Full-stack development with AI: backend API, frontend UI, database design
+- Automated testing with Playwright browser automation
+
+Tech stack: Quarkus (Java), React + TypeScript, PostgreSQL, Docker, Vite
+
+Source code: https://github.com/DoDocs-AI/claude-teams-test-expenses
+
+About me:
+Anton Ignashev — CTO at dodocs.ai
+LinkedIn: https://www.linkedin.com/in/anton-ignashev/
+
+#ClaudeCode #AIAgents #AICoding #ClaudeAI #Anthropic #TeamsOfAgents #MultiAgent #FullStackDevelopment #AIAssisted #SoftwareEngineering #React #Quarkus #TypeScript #Java #AgenticAI #CodingWithAI #AIDevTools #dodocs
+
+---
+
+About this channel:
+
+Welcome to a channel focused on AI Coding, Artificial Intelligence, and Modern Software Development.
+This channel explores how developers can use AI tools like ChatGPT, Claude Code, Open Code, GitHub Copilot, Large Language Models (LLMs), and automation frameworks to build real-world software faster and smarter. I share hands-on experiments, coding tutorials, and practical demonstrations showing how AI is transforming programming and developer workflows.
+
+On this channel, you will learn about:
+✅ AI-assisted coding and AI code generation
+✅ Prompt engineering for developers
+✅ Building applications using Large Language Models (LLMs)
+✅ Software architecture and system design with AI
+✅ Automation of development workflows and DevOps
+✅ Cloud development, APIs, and microservices
+✅ Testing, debugging, and optimizing AI-generated code
+✅ Real-world experiments with ChatGPT, Claude Code, Open Code, and other AI coding assistants
+✅ Productivity tips for software engineers
+
+About me:
+I'm Anton Ignashev, CTO at dodocs.ai — an AI-powered document automation platform. With a background in software architecture and hands-on AI development, I explore how AI tools are reshaping the way we build software.
+
+🔗 LinkedIn: https://www.linkedin.com/in/anton-ignashev/
+🌐 dodocs.ai: https://dodocs.ai
